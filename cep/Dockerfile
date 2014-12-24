@@ -52,6 +52,12 @@ RUN rm /opt/src/wso2cep-3.1.0.zip
 # HOME is already set correctly in centos image
 # ENV HOME /root
 
+# Management Ports
+EXPOSE 9443
+#EXPOSE 9763
+# JMX
+#EXPOSE 11111
+
 WORKDIR /root
 
 CMD /opt/wso2cep-3.1.0/bin/wso2server.sh

@@ -52,6 +52,15 @@ RUN rm /opt/src/wso2mb-2.2.0.zip
 # HOME is already set correctly in centos image
 # ENV HOME /root
 
+# Management Ports
+EXPOSE 9443
+#EXPOSE 9763
+# AMQP
+EXPOSE 5672
+EXPOSE 8672
+# JMX
+#EXPOSE 11111
+
 WORKDIR /root
 
 CMD /opt/wso2mb-2.2.0/bin/wso2server.sh
