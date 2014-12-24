@@ -13,7 +13,7 @@
 #       sudo docker build -t wso2cep-3.1.0 .
 #
 # Run a container using the built image
-#       sudo docker run -d -i -p 9443:9443 -t --name cep wso2cep-3.1.0
+#       sudo docker run -d -i -p 9443:9443 -t --name cep dfch/wso2cep-3.1.0
 #
 # Login to the running container
 #       sudo docker attach cep

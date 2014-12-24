@@ -13,7 +13,7 @@
 #       sudo docker build -t wso2am-1.8.0 .
 #
 # Run a container using the built image
-#       sudo docker run -d -i -p 9443:9443 -t --name am wso2am-1.8.0
+#       sudo docker run -d -i -p 9443:9443 -t --name am dfch/wso2am-1.8.0
 #
 # Login to the running container
 #       sudo docker attach am

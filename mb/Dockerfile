@@ -13,7 +13,7 @@
 #       sudo docker build -t wso2mb-2.2.0 .
 #
 # Run a container using the built image
-#       sudo docker run -d -i -p 9443:9443 -t --name mb wso2mb-2.2.0
+#       sudo docker run -d -i -p 9443:9443 -t --name mb dfch/wso2mb-2.2.0
 #
 # Login to the running container
 #       sudo docker attach mb
